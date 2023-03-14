@@ -1,0 +1,33 @@
+* {/*Selector universal*/
+    margin: 20px;
+}
+div{/*Selector etiqueta*/
+    background-color: rgb(214, 80, 80);
+}
+h3{
+    background-color: rgb(94, 94, 201);
+}
+/*Selector descendente*/
+div p {
+     color: aliceblue;
+}
+div p a {
+    color: blueviolet;
+}
+.contenedor{
+    background: rgb(203, 181, 211);
+}
+#parrafo{
+font-size: 24px;
+
+}
+/*Selectores avanzados*/
+
+/*Para input que principalmente son utilizados en formularios*/
+input[type="submit"]:hover{
+background: #000;
+}
+input[type="text"]:hover{
+background: #ccc;
+text-decoration: underline;
+}

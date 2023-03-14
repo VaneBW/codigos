@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box ; 
+   
+}
+.contenedor{
+    width: 1000px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+body{
+    background: #4a465b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+header{
+    background:#fff ;
+}
+header nav{
+   width:100% ; 
+   overflow: hidden;
+}
+header nav ul li {
+    float: left;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 15px 20px;
+}
+header nav ul li a:hover{
+    background: #000;
+    color: #fff;
+}
+.main{
+    width: 70%; 
+    background: #fff;
+    float: left;
+}
+.main.imagen{
+    width: 100%;
+}
+.main.imagen img{
+    width: 100%;
+    vertical-align: top;
+}
+.main.publicacion{
+    padding: 45px;
+}
+.main.publicacion article h2{
+    margin-bottom:25px ;
+   color: #4a465b;
+}
+.main.publicacion article p{
+    margin-bottom:15px ;
+    line-height: 25px;
+}
+aside{
+    width: 300px;
+    background: #161f26;
+    padding: 20px;
+    color: #fff;
+    float: left;
+}
+aside .widget{
+    margin-bottom: 20px;
+
+}
+aside .widget .titulo{
+    color: orange;
+    border-bottom: 2px solid orange;
+    margin-bottom: 15px;
+}
+aside .widget ul{
+    list-style: none;
+}
+aside .widget ul li{
+     border-bottom: 2px solid red;
+     padding: 12px 0;
+}
+aside .widget ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+aside .widget ul li a:hover{
+  color: #7e7575;
+  
+}
+aside.widget p{
+    line-height: 25px;
+}
+footer{
+    width: 70%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    overflow: hidden;
+}
+@media (max-width:750px){
+    body{
+        background: #000;
+    }
+    header{
+        background: #161f26;
+    }
+    header nav ul li a{
+color: #fff;
+    }
+    header nav ul li a:hover{
+color: #fff;
+background-color: white;
+    }
+    header nav ul li{
+        float: right;
+    }
+    main.main.publicacion article h2{
+        border-bottom: 1px solid #fff;
+        color: aliceblue;
+    }
+    main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+}
+
+

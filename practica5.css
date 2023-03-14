@@ -1,0 +1,37 @@
+.titulo{
+    padding: 10px;
+    background-color: #7eb6b2b7;
+    text-align: center;
+}
+.menu{
+    overflow: hidden;
+    background-color: #d8ccba;
+}
+.menu a{
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+.menu a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.caja{
+    background: #be578296;
+    width: 250px;
+  
+    margin: 20px;
+    padding: 20px;
+   
+    border: 10px solid rgba(129, 54, 113, 0.507);
+}
+.caja p{
+    background: #547294;
+}
+
+.contenedor{
+    display: flex;
+}

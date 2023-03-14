@@ -1,0 +1,10 @@
+/*background*/
+body{
+  /*  background: url(BW.jpg);
+    background-repeat: no-repeat; Para no repetir la imagen 
+    background-size: contain;
+    background-position: center center;
+    background-attachment: scroll;*/
+    background: url(BW.jpg) no-repeat center center fixed;
+    background-size: 200px;
+}
